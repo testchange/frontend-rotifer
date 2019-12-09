@@ -45,7 +45,7 @@ export default {
       const formData = new FormData();
       formData.append('file',this.file);
       try{
-        await axios.post('http://localhost:5000/upload',formData);
+        await axios.post('http://54.169.219.159/upload',formData);
         this.message = formData
 
       }
