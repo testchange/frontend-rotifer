@@ -50,7 +50,6 @@ export default {
 
       }
       catch(err){
-        console.log(err);
         this.message = err.response.data.error
       }
     }
